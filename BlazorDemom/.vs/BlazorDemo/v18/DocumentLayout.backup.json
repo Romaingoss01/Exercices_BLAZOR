@@ -1,0 +1,139 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\romai\\OneDrive\\Bureau\\Exercices-react\\BlazorDemom\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{E2507F5D-A9A2-4EA1-98C6-D3F586F6A627}|BlazorDemo.Client\\BlazorDemo.Client.csproj|c:\\users\\romai\\onedrive\\bureau\\exercices-react\\blazordemom\\blazordemo.client\\layout\\navmenu.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E2507F5D-A9A2-4EA1-98C6-D3F586F6A627}|BlazorDemo.Client\\BlazorDemo.Client.csproj|solutionrelative:blazordemo.client\\layout\\navmenu.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E2507F5D-A9A2-4EA1-98C6-D3F586F6A627}|BlazorDemo.Client\\BlazorDemo.Client.csproj|c:\\users\\romai\\onedrive\\bureau\\exercices-react\\blazordemom\\blazordemo.client\\components\\todoitem.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E2507F5D-A9A2-4EA1-98C6-D3F586F6A627}|BlazorDemo.Client\\BlazorDemo.Client.csproj|solutionrelative:blazordemo.client\\components\\todoitem.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E2507F5D-A9A2-4EA1-98C6-D3F586F6A627}|BlazorDemo.Client\\BlazorDemo.Client.csproj|c:\\users\\romai\\onedrive\\bureau\\exercices-react\\blazordemom\\blazordemo.client\\pages\\todopage.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E2507F5D-A9A2-4EA1-98C6-D3F586F6A627}|BlazorDemo.Client\\BlazorDemo.Client.csproj|solutionrelative:blazordemo.client\\pages\\todopage.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E2507F5D-A9A2-4EA1-98C6-D3F586F6A627}|BlazorDemo.Client\\BlazorDemo.Client.csproj|c:\\users\\romai\\onedrive\\bureau\\exercices-react\\blazordemom\\blazordemo.client\\models\\todotask.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E2507F5D-A9A2-4EA1-98C6-D3F586F6A627}|BlazorDemo.Client\\BlazorDemo.Client.csproj|solutionrelative:blazordemo.client\\models\\todotask.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E2507F5D-A9A2-4EA1-98C6-D3F586F6A627}|BlazorDemo.Client\\BlazorDemo.Client.csproj|c:\\users\\romai\\onedrive\\bureau\\exercices-react\\blazordemom\\blazordemo.client\\app.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E2507F5D-A9A2-4EA1-98C6-D3F586F6A627}|BlazorDemo.Client\\BlazorDemo.Client.csproj|solutionrelative:blazordemo.client\\app.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{57F5A92B-394B-4A6C-AB60-DF78279F1C85}|BlazorDemo.Server\\BlazorDemo.Server.csproj|c:\\users\\romai\\onedrive\\bureau\\exercices-react\\blazordemom\\blazordemo.server\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{57F5A92B-394B-4A6C-AB60-DF78279F1C85}|BlazorDemo.Server\\BlazorDemo.Server.csproj|solutionrelative:blazordemo.server\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{57F5A92B-394B-4A6C-AB60-DF78279F1C85}|BlazorDemo.Server\\BlazorDemo.Server.csproj|c:\\users\\romai\\onedrive\\bureau\\exercices-react\\blazordemom\\blazordemo.server\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{57F5A92B-394B-4A6C-AB60-DF78279F1C85}|BlazorDemo.Server\\BlazorDemo.Server.csproj|solutionrelative:blazordemo.server\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "NavMenu.razor",
+              "DocumentMoniker": "C:\\Users\\romai\\OneDrive\\Bureau\\Exercices-react\\BlazorDemom\\BlazorDemo.Client\\Layout\\NavMenu.razor",
+              "RelativeDocumentMoniker": "BlazorDemo.Client\\Layout\\NavMenu.razor",
+              "ToolTip": "C:\\Users\\romai\\OneDrive\\Bureau\\Exercices-react\\BlazorDemom\\BlazorDemo.Client\\Layout\\NavMenu.razor",
+              "RelativeToolTip": "BlazorDemo.Client\\Layout\\NavMenu.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-01-28T12:31:39.444Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "TodoTask.cs",
+              "DocumentMoniker": "C:\\Users\\romai\\OneDrive\\Bureau\\Exercices-react\\BlazorDemom\\BlazorDemo.Client\\Models\\TodoTask.cs",
+              "RelativeDocumentMoniker": "BlazorDemo.Client\\Models\\TodoTask.cs",
+              "ToolTip": "C:\\Users\\romai\\OneDrive\\Bureau\\Exercices-react\\BlazorDemom\\BlazorDemo.Client\\Models\\TodoTask.cs",
+              "RelativeToolTip": "BlazorDemo.Client\\Models\\TodoTask.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-28T11:24:35.996Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "TodoItem.razor",
+              "DocumentMoniker": "C:\\Users\\romai\\OneDrive\\Bureau\\Exercices-react\\BlazorDemom\\BlazorDemo.Client\\Components\\TodoItem.razor",
+              "RelativeDocumentMoniker": "BlazorDemo.Client\\Components\\TodoItem.razor",
+              "ToolTip": "C:\\Users\\romai\\OneDrive\\Bureau\\Exercices-react\\BlazorDemom\\BlazorDemo.Client\\Components\\TodoItem.razor",
+              "RelativeToolTip": "BlazorDemo.Client\\Components\\TodoItem.razor",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAAwCUAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-01-28T11:18:17.529Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "TodoPage.razor",
+              "DocumentMoniker": "C:\\Users\\romai\\OneDrive\\Bureau\\Exercices-react\\BlazorDemom\\BlazorDemo.Client\\Pages\\TodoPage.razor",
+              "RelativeDocumentMoniker": "BlazorDemo.Client\\Pages\\TodoPage.razor",
+              "ToolTip": "C:\\Users\\romai\\OneDrive\\Bureau\\Exercices-react\\BlazorDemom\\BlazorDemo.Client\\Pages\\TodoPage.razor",
+              "RelativeToolTip": "BlazorDemo.Client\\Pages\\TodoPage.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEkAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-01-28T11:17:35.793Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "App.razor",
+              "DocumentMoniker": "C:\\Users\\romai\\OneDrive\\Bureau\\Exercices-react\\BlazorDemom\\BlazorDemo.Client\\App.razor",
+              "RelativeDocumentMoniker": "BlazorDemo.Client\\App.razor",
+              "ToolTip": "C:\\Users\\romai\\OneDrive\\Bureau\\Exercices-react\\BlazorDemom\\BlazorDemo.Client\\App.razor",
+              "RelativeToolTip": "BlazorDemo.Client\\App.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-01-28T11:05:56.06Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\romai\\OneDrive\\Bureau\\Exercices-react\\BlazorDemom\\BlazorDemo.Server\\Program.cs",
+              "RelativeDocumentMoniker": "BlazorDemo.Server\\Program.cs",
+              "ToolTip": "C:\\Users\\romai\\OneDrive\\Bureau\\Exercices-react\\BlazorDemom\\BlazorDemo.Server\\Program.cs",
+              "RelativeToolTip": "BlazorDemo.Server\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-26T15:01:53.008Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "AppDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\romai\\OneDrive\\Bureau\\Exercices-react\\BlazorDemom\\BlazorDemo.Server\\Data\\AppDbContext.cs",
+              "RelativeDocumentMoniker": "BlazorDemo.Server\\Data\\AppDbContext.cs",
+              "ToolTip": "C:\\Users\\romai\\OneDrive\\Bureau\\Exercices-react\\BlazorDemom\\BlazorDemo.Server\\Data\\AppDbContext.cs",
+              "RelativeToolTip": "BlazorDemo.Server\\Data\\AppDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-26T13:58:45.634Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

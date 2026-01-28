@@ -1,0 +1,11 @@
+C:\Users\romai\OneDrive\Bureau\Exercices-react\BlazorDemom\BlazorDemo.Shared\bin\Debug\net8.0\BlazorDemo.Shared.deps.json
+C:\Users\romai\OneDrive\Bureau\Exercices-react\BlazorDemom\BlazorDemo.Shared\bin\Debug\net8.0\BlazorDemo.Shared.dll
+C:\Users\romai\OneDrive\Bureau\Exercices-react\BlazorDemom\BlazorDemo.Shared\bin\Debug\net8.0\BlazorDemo.Shared.pdb
+C:\Users\romai\OneDrive\Bureau\Exercices-react\BlazorDemom\BlazorDemo.Shared\obj\Debug\net8.0\BlazorDemo.Shared.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\romai\OneDrive\Bureau\Exercices-react\BlazorDemom\BlazorDemo.Shared\obj\Debug\net8.0\BlazorDemo.Shared.AssemblyInfoInputs.cache
+C:\Users\romai\OneDrive\Bureau\Exercices-react\BlazorDemom\BlazorDemo.Shared\obj\Debug\net8.0\BlazorDemo.Shared.AssemblyInfo.cs
+C:\Users\romai\OneDrive\Bureau\Exercices-react\BlazorDemom\BlazorDemo.Shared\obj\Debug\net8.0\BlazorDemo.Shared.csproj.CoreCompileInputs.cache
+C:\Users\romai\OneDrive\Bureau\Exercices-react\BlazorDemom\BlazorDemo.Shared\obj\Debug\net8.0\BlazorDemo.Shared.dll
+C:\Users\romai\OneDrive\Bureau\Exercices-react\BlazorDemom\BlazorDemo.Shared\obj\Debug\net8.0\refint\BlazorDemo.Shared.dll
+C:\Users\romai\OneDrive\Bureau\Exercices-react\BlazorDemom\BlazorDemo.Shared\obj\Debug\net8.0\BlazorDemo.Shared.pdb
+C:\Users\romai\OneDrive\Bureau\Exercices-react\BlazorDemom\BlazorDemo.Shared\obj\Debug\net8.0\ref\BlazorDemo.Shared.dll

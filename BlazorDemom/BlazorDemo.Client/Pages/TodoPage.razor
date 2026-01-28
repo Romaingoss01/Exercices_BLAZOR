@@ -1,0 +1,76 @@
+﻿@page "/todo"
+@using BlazorDemo.Client.Models
+@using BlazorDemo.Client.Components
+
+<h3>Todo List</h3>
+
+<div class="card p-4 mt-3">
+
+    <div class="input-group mb-3">
+        <input class="form-control"
+               placeholder="Nouvelle tâche..."
+               @bind="nouvelleTache"
+               @bind:event="oninput" />
+
+        <button class="btn btn-primary"
+                @onclick="AjouterTache"
+                disabled="@string.IsNullOrWhiteSpace(nouvelleTache)">
+            Ajouter
+        </button>
+    </div>
+
+    @if (!taches.Any())
+    {
+        <p class="text-muted">
+            Aucune tâche pour le moment.
+        </p>
+    }
+    else
+    {
+        @foreach (var tache in taches)
+        {
+            <TodoItem Tache="tache"
+                      OnDelete="() => SupprimerTache(tache)"
+                      OnChange="MettreAJour" />
+        }
+
+        <p class="mt-3">
+            <strong>Tâches restantes :</strong>
+            @taches.Count(t => !t.EstTerminee)
+        </p>
+
+        @if (taches.All(t => t.EstTerminee))
+        {
+            <div class="alert alert-success">
+                🎉 Félicitations, toutes les tâches sont terminées !
+            </div>
+        }
+    }
+</div>
+
+@code {
+    List<TodoTask> taches = new();
+    string nouvelleTache = "";
+    int compteur = 1;
+
+    void AjouterTache()
+    {
+        taches.Add(new TodoTask
+        {
+            Id = compteur++,
+            Titre = nouvelleTache
+        });
+
+        nouvelleTache = "";
+    }
+
+    void SupprimerTache(TodoTask tache)
+    {
+        taches.Remove(tache);
+    }
+
+    void MettreAJour()
+    {
+        //volontairement vide
+    }
+}

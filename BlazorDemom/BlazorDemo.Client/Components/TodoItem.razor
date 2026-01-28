@@ -1,0 +1,40 @@
+﻿@using BlazorDemo.Client.Models
+
+<div class="d-flex align-items-center mb-2">
+    <input type="checkbox"
+           class="form-check-input me-2"
+           checked="@Tache.EstTerminee"
+           @onchange="OnToggle" />
+
+    <span style="@(Tache.EstTerminee ? "text-decoration:line-through;" : "")">
+        @Tache.Titre
+    </span>
+
+    <button class="btn btn-sm btn-danger ms-auto"
+            @onclick="OnSupprimer">
+        Supprimer
+    </button>
+</div>
+
+@code {
+    [Parameter]
+    public TodoTask Tache { get; set; }
+
+    [Parameter]
+    public EventCallback OnDelete { get; set; }
+
+    [Parameter]
+    public EventCallback OnChange { get; set; }
+
+    void OnToggle()
+    {
+        Tache.EstTerminee = !Tache.EstTerminee;
+        OnChange.InvokeAsync();
+    }
+
+    void OnSupprimer()
+    {
+        OnDelete.InvokeAsync();
+    }
+
+}

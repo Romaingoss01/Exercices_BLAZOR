@@ -1,0 +1,83 @@
+is_global = true
+build_property.EnableAotAnalyzer = 
+build_property.EnableSingleFileAnalyzer = 
+build_property.EnableTrimAnalyzer = false
+build_property.IncludeAllContentForSelfExtract = 
+build_property.TargetFramework = net8.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = 
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = false
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = browser
+build_property.RootNamespace = BlazorDemo.Client
+build_property.RootNamespace = BlazorDemo.Client
+build_property.ProjectDir = C:\Users\romai\OneDrive\Bureau\Exercices-react\BLAZOR\BlazorDemo\BlazorDemo.Client\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = false
+build_property.RazorLangVersion = 8.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = C:\Users\romai\OneDrive\Bureau\Exercices-react\BLAZOR\BlazorDemo\BlazorDemo.Client
+build_property._RazorSourceGeneratorDebug = 
+
+[C:/Users/romai/OneDrive/Bureau/Exercices-react/BLAZOR/BlazorDemo/BlazorDemo.Client/App.razor]
+build_metadata.AdditionalFiles.TargetPath = QXBwLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/romai/OneDrive/Bureau/Exercices-react/BLAZOR/BlazorDemo/BlazorDemo.Client/Components/CarteProduit.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xDYXJ0ZVByb2R1aXQucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/romai/OneDrive/Bureau/Exercices-react/BLAZOR/BlazorDemo/BlazorDemo.Client/Components/CompteurReutilisable.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xDb21wdGV1clJldXRpbGlzYWJsZS5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/romai/OneDrive/Bureau/Exercices-react/BLAZOR/BlazorDemo/BlazorDemo.Client/Pages/Demos/Demo1_HelloWorld.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRGVtb3NcRGVtbzFfSGVsbG9Xb3JsZC5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/romai/OneDrive/Bureau/Exercices-react/BLAZOR/BlazorDemo/BlazorDemo.Client/Pages/Demos/Demo2_Binding.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRGVtb3NcRGVtbzJfQmluZGluZy5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/romai/OneDrive/Bureau/Exercices-react/BLAZOR/BlazorDemo/BlazorDemo.Client/Pages/Demos/Demo3_structures.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRGVtb3NcRGVtbzNfc3RydWN0dXJlcy5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/romai/OneDrive/Bureau/Exercices-react/BLAZOR/BlazorDemo/BlazorDemo.Client/Pages/Demos/Demo4_component.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRGVtb3NcRGVtbzRfY29tcG9uZW50LnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/romai/OneDrive/Bureau/Exercices-react/BLAZOR/BlazorDemo/BlazorDemo.Client/Pages/Demos/Demo5_Formulaires.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRGVtb3NcRGVtbzVfRm9ybXVsYWlyZXMucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/romai/OneDrive/Bureau/Exercices-react/BLAZOR/BlazorDemo/BlazorDemo.Client/Pages/Demos/Demo6_Routing.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRGVtb3NcRGVtbzZfUm91dGluZy5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/romai/OneDrive/Bureau/Exercices-react/BLAZOR/BlazorDemo/BlazorDemo.Client/Pages/Demos/Demo7_Services.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRGVtb3NcRGVtbzdfU2VydmljZXMucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/romai/OneDrive/Bureau/Exercices-react/BLAZOR/BlazorDemo/BlazorDemo.Client/Pages/Demos/ProduitsCrud.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRGVtb3NcUHJvZHVpdHNDcnVkLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/romai/OneDrive/Bureau/Exercices-react/BLAZOR/BlazorDemo/BlazorDemo.Client/Pages/Home.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSG9tZS5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/romai/OneDrive/Bureau/Exercices-react/BLAZOR/BlazorDemo/BlazorDemo.Client/_Imports.razor]
+build_metadata.AdditionalFiles.TargetPath = X0ltcG9ydHMucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/romai/OneDrive/Bureau/Exercices-react/BLAZOR/BlazorDemo/BlazorDemo.Client/Layout/MainLayout.razor]
+build_metadata.AdditionalFiles.TargetPath = TGF5b3V0XE1haW5MYXlvdXQucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = b-xeiicy6osf
+
+[C:/Users/romai/OneDrive/Bureau/Exercices-react/BLAZOR/BlazorDemo/BlazorDemo.Client/Layout/NavMenu.razor]
+build_metadata.AdditionalFiles.TargetPath = TGF5b3V0XE5hdk1lbnUucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = b-cec8aopxnl

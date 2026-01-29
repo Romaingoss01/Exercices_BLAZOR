@@ -1,0 +1,205 @@
+﻿@page "/crud"
+@using BlazorDemo.Shared.Models
+
+<h3>Gestion des produits</h3>
+
+<button class="btn btn-success mb-3"
+        @onclick="AfficherFormulaireAjout">
+    ➕ Ajouter un produit
+</button>
+
+@if (afficherFormulaire)
+{
+    <EditForm Model="productForm" OnValidSubmit="Enregistrer">
+        <DataAnnotationsValidator />
+
+        <div class="card p-3 mb-4">
+            <h5>@(modeEdition ? "Modifier un produit" : "Ajouter un produit")</h5>
+
+            <!-- Nom -->
+            <div class="mb-2">
+                <label>Nom</label>
+                <InputText class="form-control"
+                           @bind-Value="productForm.Nom" />
+                <ValidationMessage For="() => productForm.Nom" />
+            </div>
+
+            <!-- Catégorie -->
+            <div class="mb-2">
+                <label>Catégorie</label>
+                <InputSelect class="form-select"
+                             @bind-Value="productForm.Categorie">
+                    <option value="">-- Sélectionner une catégorie --</option>
+                    @foreach (var cat in categories)
+                    {
+                        <option value="@cat">@cat</option>
+                    }
+                </InputSelect>
+                <ValidationMessage For="() => productForm.Categorie" />
+            </div>
+
+            <!-- Prix -->
+            <div class="mb-2">
+                <label>Prix (€)</label>
+                <InputNumber class="form-control"
+                             @bind-Value="productForm.Prix" />
+            </div>
+
+            <!-- Stock -->
+            <div class="mb-2">
+                <label>Stock</label>
+                <InputNumber class="form-control"
+                             @bind-Value="productForm.Stock" />
+            </div>
+
+            <!-- Actif -->
+            <div class="form-check mb-3">
+                <InputCheckbox class="form-check-input"
+                               @bind-Value="productForm.Actif" />
+                <label class="form-check-label">
+                    Actif
+                </label>
+            </div>
+
+            <button type="submit" class="btn btn-primary me-2">
+                Enregistrer
+            </button>
+
+            <button type="button"
+                    class="btn btn-secondary"
+                    @onclick="Annuler">
+                Annuler
+            </button>
+        </div>
+    </EditForm>
+}
+
+<table class="table table-bordered">
+    <thead>
+        <tr>
+            <th>Id</th>
+            <th>Nom</th>
+            <th>Catégorie</th>
+            <th>Prix</th>
+            <th>Stock</th>
+            <th>Statut</th>
+            <th>Actions</th>
+        </tr>
+    </thead>
+    <tbody>
+        @if (products.Count == 0)
+        {
+            <tr>
+                <td colspan="7" class="text-center text-muted">
+                    Aucun produit
+                </td>
+            </tr>
+        }
+        else
+        {
+            @foreach (var p in products)
+            {
+                <tr>
+                    <td>@p.Id</td>
+                    <td>@p.Nom</td>
+                    <td>@p.Categorie</td>
+                    <td>@p.Prix €</td>
+                    <td>@p.Stock</td>
+                    <td>
+                        @if (p.Actif)
+                        {
+                            <span class="badge bg-success">Actif</span>
+                        }
+                        else
+                        {
+                            <span class="badge bg-secondary">Inactif</span>
+                        }
+                    </td>
+                    <td>
+                        <button class="btn btn-sm btn-warning me-1"
+                                @onclick="() => Editer(p)">
+                            ✏️
+                        </button>
+
+                        <button class="btn btn-sm btn-danger"
+                                @onclick="() => Supprimer(p)">
+                            🗑️
+                        </button>
+                    </td>
+                </tr>
+            }
+        }
+    </tbody>
+</table>
+
+
+@code {
+    List<Product> products = new();
+    Product productForm = new();
+
+    List<string> categories = new()
+    {
+        "Informatique",
+        "Accessoires",
+        "Audio",
+        "Gaming"
+    };
+
+    bool afficherFormulaire = false;
+    bool modeEdition = false;
+    int compteurId = 1;
+
+    void AfficherFormulaireAjout()
+    {
+        productForm = new Product();
+        modeEdition = false;
+        afficherFormulaire = true;
+    }
+
+    void Enregistrer()
+    {
+        if (modeEdition)
+        {
+            var p = products.First(x => x.Id == productForm.Id);
+            p.Nom = productForm.Nom;
+            p.Categorie = productForm.Categorie;
+            p.Prix = productForm.Prix;
+            p.Stock = productForm.Stock;
+            p.Actif = productForm.Actif;
+        }
+        else
+        {
+            productForm.Id = compteurId++;
+            products.Add(productForm);
+        }
+
+        afficherFormulaire = false;
+    }
+
+    void Editer(Product product)
+    {
+        productForm = new Product
+        {
+            Id = product.Id,
+            Nom = product.Nom,
+            Categorie = product.Categorie,
+            Prix = product.Prix,
+            Stock = product.Stock,
+            Actif = product.Actif
+        };
+
+        modeEdition = true;
+        afficherFormulaire = true;
+    }
+
+    void Supprimer(Product product)
+    {
+        products.Remove(product);
+    }
+
+    void Annuler()
+    {
+        afficherFormulaire = false;
+    }
+
+}

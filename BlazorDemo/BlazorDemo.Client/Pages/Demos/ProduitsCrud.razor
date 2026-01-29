@@ -16,7 +16,6 @@
         <div class="card p-3 mb-4">
             <h5>@(modeEdition ? "Modifier un produit" : "Ajouter un produit")</h5>
 
-            <!-- Nom -->
             <div class="mb-2">
                 <label>Nom</label>
                 <InputText class="form-control"
@@ -24,7 +23,6 @@
                 <ValidationMessage For="() => productForm.Nom" />
             </div>
 
-            <!-- Catégorie -->
             <div class="mb-2">
                 <label>Catégorie</label>
                 <InputSelect class="form-select"
@@ -38,21 +36,18 @@
                 <ValidationMessage For="() => productForm.Categorie" />
             </div>
 
-            <!-- Prix -->
             <div class="mb-2">
                 <label>Prix (€)</label>
                 <InputNumber class="form-control"
                              @bind-Value="productForm.Prix" />
             </div>
 
-            <!-- Stock -->
             <div class="mb-2">
                 <label>Stock</label>
                 <InputNumber class="form-control"
                              @bind-Value="productForm.Stock" />
             </div>
 
-            <!-- Actif -->
             <div class="form-check mb-3">
                 <InputCheckbox class="form-check-input"
                                @bind-Value="productForm.Actif" />
